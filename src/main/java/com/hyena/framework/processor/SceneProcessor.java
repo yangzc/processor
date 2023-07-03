@@ -97,11 +97,13 @@ public class SceneProcessor extends AbstractProcessor {
 
 	@Override
 	public SourceVersion getSupportedSourceVersion() {
+		messager.printMessage(Diagnostic.Kind.NOTE, "getSupportedSourceVersion!!! " + SourceVersion.latestSupported());
 		return SourceVersion.latestSupported();
 	}
 
 	@Override
 	public Set<String> getSupportedAnnotationTypes() {
+		messager.printMessage(Diagnostic.Kind.NOTE, "getSupportedAnnotationTypes!!!");
     	Set<String> types = new HashSet<String>();
 		types.add(Scene.class.getCanonicalName());
     	return types;
@@ -109,6 +111,7 @@ public class SceneProcessor extends AbstractProcessor {
 
 	@Override
 	public Set<String> getSupportedOptions() {
+		messager.printMessage(Diagnostic.Kind.NOTE, "getSupportedOptions!!!");
 		return Collections.singleton(APPLICATION_ID);
 	}
 
