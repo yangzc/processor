@@ -1,0 +1,10 @@
+_Store
+*.iml
+.idea/
+out/
+build/
+.gradle/
+.DS_Store
+.externalNativeBuild/
+captures/
+.cxx/
