@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.google.auto.service:auto-service:1.0-rc2'
+    implementation 'com.google.auto.service:auto-service:1.1.1'
     implementation 'com.squareup:javapoet:1.11.1'
     implementation 'com.github.yangzc:annonations:1.0.0'
 }
