@@ -16,3 +16,18 @@ dependencies {
     annotationProcessor 'com.github.yangzc:processor:1.0.3'
 }
 ```
+
+## Step 3. Modify package
+```
+android {
+    defaultConfig {
+        javaCompileOptions {
+            //配置注解处理器参数
+            annotationProcessorOptions {
+                arguments = [ applicationId : "com.hyena.support" ]
+            }
+        }
+    }
+}
+```
+
