@@ -13,6 +13,6 @@ allprojects {
 ## Step 2. Add the dependency
 ```groovy
 dependencies {
-    annotationProcessor 'com.github.yangzc:processor:1.0.0'
+    annotationProcessor 'com.github.yangzc:processor:1.0.3'
 }
 ```
